@@ -593,7 +593,7 @@ main {
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
+.testimonials-item-title { margin-bottom: 0px; }
 
 .testimonials-text {
   color: var(--light-gray);
@@ -827,6 +827,7 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  list-style-type: circle;
 }
 
 
@@ -872,7 +873,7 @@ main {
 
 
 /*-----------------------------------*\
-  #PORTFOLIO
+  #PROJECTS
 \*-----------------------------------*/
 
 .filter-list { display: none; }
@@ -1287,7 +1288,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PROJECTS, BLOG 
    */
 
   .project-img,
@@ -1422,7 +1423,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar-link { --fs-8: 14px; }
 
-
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
   /**
    * #ABOUT
@@ -1473,11 +1477,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .testimonials-avatar-box img { width: 80px; }
 
   .testimonials-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
+    margin-bottom: 0px;
+    margin-left: 0px;
   }
 
   .testimonials-text {
+    padding-top: 2px;
     line-clamp: 2;
     -webkit-line-clamp: 2;
   }
@@ -1546,7 +1551,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG
+   * #PROJECTS, BLOG
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
@@ -1639,7 +1644,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * PROJECTS
    */
 
   .article-title { padding-bottom: 20px; }
@@ -1665,7 +1670,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-  /* portfolio and blog grid */
+  /* projects and blog grid */
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
@@ -1784,7 +1789,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * PROJECTS
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
@@ -1878,7 +1883,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 250px; }
 
   .info-content .name {
     white-space: nowrap;
