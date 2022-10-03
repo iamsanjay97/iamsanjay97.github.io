@@ -127,27 +127,27 @@
 
         <div class="separator"></div>
 
-        <!-- <ul class="social-list">
+        <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://www.facebook.com/iamsanjay009/" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://twitter.com/iamsanjay_97" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com/sanjay_rc/" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
 
-        </ul> -->
+        </ul>
 
       </div>
 
@@ -335,6 +335,20 @@
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
+                <h5 class="h5 testimonials-item-title" data-testimonials-title><span style="color: hsl(45, 100%, 72%)">8-9 December, 2021:</span></h5>
+                  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Presented our autonomous broker agent <strong>"VidyutVanika21"</strong> in PASS2021 workshop.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
                 <h5 class="h5 testimonials-item-title" data-testimonials-title><span style="color: hsl(45, 100%, 72%)">27th October, 2021:</span></h5>
                   
                 <div class="testimonials-text" data-testimonials-text>
@@ -367,7 +381,7 @@
                   
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Presented our paper <strong>"Vidyutvanika18: An autonomous broker agent for smart grid environment"</strong> at <strong>PASS workshop</strong> held in Cologne, Germany.
+                    Presented our paper <strong>"Vidyutvanika18: An autonomous broker agent for smart grid environment"</strong> at <strong>PASS2019 workshop</strong> held in Cologne, Germany.
                   </p>
                 </div>
 
@@ -655,8 +669,14 @@
       <article class="projects" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Research Projects<br> and Publications</h2>
+          <h2 class="h2 article-title">Projects<br> and Publications</h2>
         </header>
+
+        <!-- 
+          ################################################################
+          Include grant details below each publication
+          ################################################################
+         -->
 
         <section class="projects">
 
@@ -667,15 +687,19 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Publications</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Projects</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Posters</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Demos</button>
             </li>
 
           </ul>
@@ -699,15 +723,24 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <!-- 
+                  ########################################################################################################################
+                  Map publications with posters and videos, a click on paper should open a floting window to redirect to poster/demos link
+                  ########################################################################################################################
+                 -->
+                <button data-select-item>Publications</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Projects</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Posters</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Demos</button>
               </li>
 
             </ul>
@@ -716,43 +749,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <!-- <li class="project-item  active" data-filter-item data-category="publications">
               <a href="#">
 
                 <figure class="project-img">
@@ -765,12 +762,12 @@
 
                 <h3 class="project-title">Fundo</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Publications</p>
 
               </a>
-            </li>
+            </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <!-- <li class="project-item  active" data-filter-item data-category="projects">
               <a href="#">
 
                 <figure class="project-img">
@@ -783,66 +780,66 @@
 
                 <h3 class="project-title">Brawlhalla</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Projects</p>
 
               </a>
-            </li>
+            </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://www.ijcai.org/proceedings/2022/23" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/ijcai22_logo.png" alt="ijcai22" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">VidyutVanika21: An Autonomous Intelligent Broker for Smart-grids</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Publications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://dl.acm.org/doi/abs/10.5555/3535850.3536037" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/aamas22_logo.png" alt="aamas22" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">Multi-unit Double Auctions: Equilibrium Analysis and Bidding Strategy using DDPG in Smart-grids</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Publications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://www.researchgate.net/publication/334971573_VidyutVanika_An_Autonomous_Broker_Agent_for_Smart_Grid_Environment" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/pass20.png" alt="ijcai22" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">VidyutVanika: An Autonomous Broker Agent for Smart Grid Environment (PASS'19)</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Publications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <!-- <li class="project-item  active" data-filter-item data-category="projects">
               <a href="#">
 
                 <figure class="project-img">
@@ -855,25 +852,151 @@
 
                 <h3 class="project-title">Task Manager</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Projects</p>
 
               </a>
-            </li>
+            </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="posters">
+              <a href="https://drive.google.com/file/d/14lxSQhN1K5L1GzyA5ZbMDt8Ws64vAbME/view" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/ijcai22.png" alt="ijcai22" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">VidyutVanika21: An Autonomous Intelligent Broker for Smart-grids (IJCAI'22)</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Posters</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="posters">
+              <a href="https://drive.google.com/file/d/1OucjxelE_uZ66QvwgKJybNZf5KN3EyUi/view" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aamas22.png" alt="aamas22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multi-unit Double Auctions: Equilibrium Analysis and Bidding Strategy using DDPG in Smart-grids (AAMAS'22)</h3>
+
+                <p class="project-category">Posters</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="posters">
+              <a href="https://drive.google.com/file/d/160aSZy5J3NBdKNqV2KLb2277P8fbN6kz/view" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rnd22.png" alt="rnd22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PowerGame: Role of Artificial Intelligence and Game Theory in Smart-grids (R&D Showcase'22)</h3>
+
+                <p class="project-category">Posters</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="demos">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aamas22.png" alt="aamas22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multi-unit Double Auctions: Equilibrium Analysis and Bidding Strategy using DDPG in Smart-grids (AAMAS'22)</h3>
+
+                <p class="project-category">Demos</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="demos">
+              <a href="https://drive.google.com/file/d/1VdwLKxkHfXugrNvLtSp6UCzFAU--LLuc/view" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ijcai22_pitch.png" alt="ijcai22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VidyutVanika21: An Autonomous Intelligent Broker for Smart-grids (IJCAI'22) Pitch Video</h3>
+
+                <p class="project-category">Demos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="demos">
+              <a href="https://drive.google.com/file/d/1J5sFUD5YtR2veecRzQF5WLU2t17Qr62Q/view" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ijcai22_pitch.png" alt="ijcai22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VidyutVanika21: An Autonomous Intelligent Broker for Smart-grids (IJCAI'22) Full Video</h3>
+
+                <p class="project-category">Demos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="demos">
+              <a href="https://drive.google.com/file/d/1Oa3PO0GB8lq3ZrsS3Hr2RLvhpCtAHY6Z/view" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rnd22_pitch.png" alt="rnd22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PowerGame: Role of Artificial Intelligence and Game Theory in Smart-grids (R&D Showcase'22) Pitch Video</h3>
+
+                <p class="project-category">Demos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="demos">
+              <a href="https://drive.google.com/file/d/1N6PVTtWGddRtu9q4p-32pYizcxbpYUCa/view" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rnd22_pitch.png" alt="rnd22" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PowerGame: Role of Artificial Intelligence and Game Theory in Smart-grids (R&D Showcase'22) Full Video</h3>
+
+                <p class="project-category">Demos</p>
 
               </a>
             </li>
@@ -883,10 +1006,6 @@
         </section>
 
       </article>
-
-
-
-
 
       <!--
         - #BLOG
@@ -902,7 +1021,7 @@
 
           <ul class="blog-posts-list">
 
-            <li class="blog-post-item">
+            <!-- <li class="blog-post-item">
               <a href="#">
 
                 <figure class="blog-banner-box">
@@ -1068,7 +1187,7 @@
                 </div>
 
               </a>
-            </li>
+            </li> -->
 
           </ul>
 
